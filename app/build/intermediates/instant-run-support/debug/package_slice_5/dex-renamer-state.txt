@@ -1,0 +1,4 @@
+#Fri Mar 09 15:30:29 PST 2018
+base.0=/Users/huili/Desktop/OMSCS/2018 Spring SDP/6300Spring18Team95/GroupProject/SDPGuessIt/app/build/intermediates/transforms/dexMerger/debug/81
+path.0=classes.dex
+renamed.0=classes.dex

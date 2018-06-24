@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/huili/Desktop/OMSCS/2018 Spring SDP/6300Spring18Team95/GroupProject/SDPGuessIt/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-h720dp-v13/values-h720dp-v13.xml",
+            "map": [
+                {
+                    "source": "/Users/huili/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/93c3c8604237b3a6d2563a9d82893b38/res/values-h720dp-v13/values-h720dp-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "66",
+                        "endOffsets": "117"
+                    }
+                }
+            ]
+        }
+    ]
+}
