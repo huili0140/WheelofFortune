@@ -1,12 +1,4 @@
-# Design Document
-
-**Author**: Team095
-
-**Version**: 1.0
-
-| Version | Time | Description |
-| --------| -----| ------------|
-| 1.0 | 02/22/2018 | Project Deliverable 2 |
+# Word Guessing Game
 
 ## 1 Design Considerations
 
