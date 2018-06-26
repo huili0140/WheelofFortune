@@ -17,12 +17,6 @@
 - The system UI language will be shown in English only. The puzzles will only have English phrases.
 - As limited budget, the system will only be tested on Android Virtual Devices (AVDs) created in Android Studio.
 
-### 1.3 System Environment
-
-- **Operating System**: Android 4.4 and higher
-- **CPU**: 1.2 GHz and higher
-- **RAM**: 1.0 GB and larger
-
 ## 2 Architectural Design
 
 ### 2.1 Component Diagram
@@ -37,10 +31,10 @@
 ## 3 Low-Level Design
 
 ### 3.1 Class Diagram
-![Class Diagram](Diagrams/design-team.png)
+![Class Diagram](Diagrams/UMLDiagram.png)
 
 
-### 3.2 Other Diagrams
+### 3.2 Sequence Diagrams
 
 ![Add Cryptogram Sequence Diagram](Diagrams/SequenceDiagram.png)
 
@@ -48,20 +42,18 @@
 ## 4 User Interface Design
 
 ### 4.1 User Login Interface
-![Add Cryptogram Sequence Diagram](Diagrams/login.png)
+
 - Input field for the user to enter username
 - Login button, if clicked, login with the entered username
 - Create New Player button, if clicked, show the Create New Player Interface. 
 
 ### 4.2 Create New Player Interface
 
-![USE case Diagram](Diagrams/creatnewplayer.png)
-
 - Input fields to enter first name, last name, username, and email. 
 - Submit button, if clicked, insert the input information to the User table in the database. 
 
 ### 4.3 Main Menu
-![Add Cryptogram Sequence Diagram](Diagrams/mainmenu.png)
+
 - Create Puzzle button, if clicked, show the Create Puzzle Interface. 
 - Create Tournament button, if clicked, show the Create Tournament Interface. 
 - Solve Puzzle button, if clicked, show the Solve Puzzle Interface. 
@@ -69,18 +61,18 @@
 - View Statistics button, if clicked, show the View Statistics Interface. 
 
 ### 4.4 Create Puzzle Interface
-![Add Cryptogram Sequence Diagram](Diagrams/createpuzzle.png)
+
 - Input field to enter phrase and the maximum number of allowed wrong guesses. 
 - Submit button, if clicked, insert the input information to the Puzzle table in the database. 
 
 ### 4.5 Create Tournament Interface
-![Add Cryptogram Sequence Diagram](Diagrams/createtournament.png)
+
 - A list of puzzles that the user has either created or already played. The user can select 1-5 puzzles from the list. 
 - Input field to enter name. 
 - Submit button, if clicked, insert the input information to the Tournament table in the database.
 
 ### 4.6 Solve Puzzle Interface
-![Add Cryptogram Sequence Diagram](Diagrams/solvepuzzle.png)
+
 - Showing the puzzle phrase with blanks for alphabetic characters. 
 - Showing the left number of wrong guesses. 
 - Input field of Guess Consonants and Submit button. 
@@ -88,12 +80,12 @@
 - Solve Puzzle button. 
 
 ### 4.7 Join Tournament Interface
-![Add Cryptogram Sequence Diagram](Diagrams/jointournament.png)
+
 - Show the list of the puzzles and the solved/unsolved status
 - If any puzzle is clicked, show the Solve Puzzle Interface. 
 
 ### 4.8 View Statistics Interface
-![Add Cryptogram Sequence Diagram](Diagrams/viewstatistics.png)
+
 - Show the list of puzzles played by the player and the prizes. 
 - Show the list of tournaments played by the player and the prizes. 
 - Show the complete list of puzzles with winners and prizes.
